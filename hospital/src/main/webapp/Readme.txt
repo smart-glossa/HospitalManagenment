@@ -23,12 +23,13 @@ create database hospitalmanagement;
           user varchar(255) PRIMARY KEY,
           pass varchar(255),
           gender varchar(255),
+          specialist varchar(255),
           mobileNumber varchar(255),
           place varchar(255),
           city varchar(255),
           state varchar(255),
           country varchar(255),
-          pincode varchar(255);)
+          pincode varchar(255));
           
     patientRegister
     
